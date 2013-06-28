@@ -1,0 +1,91 @@
+/*
+Theme Name:     Étoile Noire
+Theme URI:      //Not yet developed
+Author:         Star Verte LLC
+Author URI:     http://starverte.com/
+Description:    Child theme for Flint; used for www.starverte.com.
+Template:       flint
+Version:        0.1.0
+License:	GPLv3
+License URI:	license.txt
+Tags:		sparks
+
+A spark sets a fire ablaze, and similarly the Sparks Framework is made up of 'sparks' that help initiate the creative process of website development within WordPress. Often times to start a fire, a person uses flint and steel. With the Sparks Framework it is the same way. 'Flint' (the core theme) and 'Steel' (the core plugin) makeup the foundation of the framework. Then, additional child themes and plugins extend the functionality and user experience.
+
+    Copyright 2013  Star Verte LLC  (email : info@starverte.com)
+    
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License, version 2, as 
+    published by the Free Software Foundation.
+    
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+    
+    You should have received a copy of the GNU General Public License
+    along with Flint.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+@import url("../flint/style.css");
+
+.navbar {
+  margin-bottom: 0;
+  padding: 0.5em;
+  padding-bottom: 0;
+}
+body {
+  background: #161617;
+}
+body, button, input, select, textarea {
+  color: #bbb;
+}
+a, a:active, a:hover, a:visited {
+  color: #5fc300;
+}
+a.link-sparks, a.link-sparks:active, a.link-sparks:hover, a.link-sparks:visited {
+  color: #e93b8c;
+}
+a.link-fcc, a.link-fcc:active, a.link-fcc:hover, a.link-fcc:visited {
+  color: #ffd540;
+}
+.home #masthead {
+  width: 100%;
+  background:#2c2b2d;
+  max-height: 700px;
+  border-bottom: 10px solid #000;
+}
+#mission {
+  background: #000;
+  color: #fff;
+  width: 100%;
+  border-bottom: 10px solid #000;	
+}
+#mission a {
+ font-weight: bold; 
+}
+.carousel {
+  margin-bottom: 0;
+}
+.carousel .item img {
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+.carousel-caption {
+ color: #fff; 
+}
+#page {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.other-sites {
+  margin-bottom: 0.5em;
+}
+.other-sites img {
+  max-width: 100%;
+}
