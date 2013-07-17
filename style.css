@@ -43,6 +43,25 @@ body {
 body, button, input, select, textarea {
   color: #bbb;
 }
+#mission, #colophon {
+  background: #000;
+  color: #fff;
+  width: 100%;
+  border-bottom: 10px solid #000;	
+}
+@media (max-width: 767px) {
+  body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .container-fluid {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #mission, #colophon {
+    width: initial;
+  }
+}
 a, a:active, a:hover, a:visited {
   color: #5fc300;
 }
@@ -57,12 +76,6 @@ a.link-fcc, a.link-fcc:active, a.link-fcc:hover, a.link-fcc:visited {
   background:#2c2b2d;
   max-height: 700px;
   border-bottom: 10px solid #000;
-}
-#mission, #colophon {
-  background: #000;
-  color: #fff;
-  width: 100%;
-  border-bottom: 10px solid #000;	
 }
 #mission a {
  font-weight: bold; 
@@ -91,4 +104,25 @@ a.link-fcc, a.link-fcc:active, a.link-fcc:hover, a.link-fcc:visited {
 }
 .other-sites img {
   max-width: 100%;
+}
+@media (max-width: 767px) {
+  .other-sites .row-fluid {
+    width: 100%;
+  }
+  .other-sites .row-fluid [class*="span"] {
+    display: block;
+    width: 100%;
+    min-height: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+  }
+  .other-sites .row-fluid .span2 {
+  	width: 14.893617021276595%;
+  }
+  .other-sites .row-fluid .span10 {
+    margin-left: 2.127659574468085%;
+  	width: 82.97872340425532%;
+  }
 }

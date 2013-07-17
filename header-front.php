@@ -106,8 +106,8 @@ else {
 
 	</header><!-- #masthead -->
   
-<div id="mission" class="container"><h3 class="offset1 span10"><a href="<?php home_url(); ?>">Star Verte LLC</a> is a multimedia design firm that specializes in <a href="">professional branding</a>, <a href="">effective communications</a>, and <a href="">experiential design</a></h3></div>
+<div id="mission" class="container-fluid row-fluid"><h3 class="offset1 span10"><a href="<?php home_url(); ?>">Star Verte LLC</a> is a multimedia design firm that specializes in <a href="">professional branding</a>, <a href="">effective communications</a>, and <a href="">experiential design</a></h3></div>
   
-<div id="page" class="hfeed site container">
+<div id="page" class="hfeed site container-fluid">
 
 	<div id="main" class="site-main row-fluid">

@@ -73,6 +73,6 @@ else {
 
 	</header><!-- #masthead -->
   
-<div id="page" class="hfeed site container">
+<div id="page" class="hfeed site container-fluid">
 
 	<div id="main" class="site-main row-fluid">
