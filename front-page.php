@@ -12,7 +12,7 @@
 
 get_template_part( 'header', 'front' ); ?>
 
-		<div id="primary" class="content-area span8">
+		<div id="primary" class="content-area col-lg-8">
 			
     	<div class="latest-posts">
       	<h2>Recent Posts</h2>
@@ -31,21 +31,21 @@ get_template_part( 'header', 'front' ); ?>
         
 		</div><!-- #secondary -->
     
-    <div id="tertiary" class="span4">
+    <div id="tertiary" class="col-lg-4">
     
     	<div class="other-sites">
       	<h2>Other Sites</h2>
         
-        <div class="row-fluid">
-        	<div class="span2"><a href="http://starverte.com/sparks"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sparks.png" alt="Sparks Logo"></a></div>
-          <div class="span10">
+        <div class="row">
+        	<div class="col-lg-2"><a href="http://starverte.com/sparks"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sparks.png" alt="Sparks Logo"></a></div>
+          <div class="col-lg-10">
           	<a class="link-sparks" href="http://starverte.com/sparks"><h4>Sparks</h4></a>
             <p>Powerful WordPress development framework</p>
           </div>
         </div>
 
-				<div class="row-fluid">
-          <div class="span12">
+				<div class="row">
+          <div class="col-lg-12">
           	<a class="link-fcc" href="http://fortcollinscreative.com"><h4>Fort Collins Creative</h4></a>
             <p>Easy and intuitive WordPress hosting, maintenance, and support</p>
           </div>
