@@ -54,7 +54,7 @@ body, button, input, select, textarea {
     padding-left: 0;
     padding-right: 0;
   }
-  .container-fluid {
+  .container {
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -106,10 +106,10 @@ a.link-fcc, a.link-fcc:active, a.link-fcc:hover, a.link-fcc:visited {
   max-width: 100%;
 }
 @media (max-width: 767px) {
-  .other-sites .row-fluid {
+  .other-sites .row {
     width: 100%;
   }
-  .other-sites .row-fluid [class*="span"] {
+  .other-sites .row [class*="col-lg-"] {
     display: block;
     width: 100%;
     min-height: 30px;
@@ -118,10 +118,10 @@ a.link-fcc, a.link-fcc:active, a.link-fcc:hover, a.link-fcc:visited {
     box-sizing: border-box;
     float: left;
   }
-  .other-sites .row-fluid .span2 {
+  .other-sites .row .col-lg-2 {
   	width: 14.893617021276595%;
   }
-  .other-sites .row-fluid .span10 {
+  .other-sites .row .col-lg-10 {
     margin-left: 2.127659574468085%;
   	width: 82.97872340425532%;
   }
