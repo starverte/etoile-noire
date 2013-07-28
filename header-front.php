@@ -63,7 +63,7 @@ else {
                     
 					<div class="nav-collapse collapse">
 						<?php wp_nav_menu( array( 'menu_class' => 'nav', 'container' => false, 'theme_location' => 'primary', 'walker' => new Flint_Bootstrap_Menu ) ); ?>
-						<form method="get" class="navbar-search pull-right visible-desktop" action="<?php echo esc_url( home_url( '/' ) ); ?>" role="search">
+						<form method="get" class="navbar-search pull-right visible-lg" action="<?php echo esc_url( home_url( '/' ) ); ?>" role="search">
 							<input type="text" class="search-query" name="s" value="<?php echo esc_attr( get_search_query() ); ?>" placeholder="Search">
 						</form>
 					</div><!-- .nav-collapse -->
@@ -83,17 +83,17 @@ else {
     
         <div class="active item" >
         	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/lifepointe.png" alt="Web">
-          <div class="carousel-caption visible-desktop"><h3 class="container">Web Design</h3></div>
+          <div class="carousel-caption visible-lg"><h3 class="container">Web Design</h3></div>
           <div class="carousel-caption hidden-desktop"><h4 class="container">Web Design</h4></div>
         </div>
         <div class="item">
         	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/cafedebangkok.png" alt="Print Media">
-          <div class="carousel-caption visible-desktop"><h3 class="container">Print Media Design</h3></div>
+          <div class="carousel-caption visible-lg"><h3 class="container">Print Media Design</h3></div>
           <div class="carousel-caption hidden-desktop"><h4 class="container">Print Media Design</h4></div>
         </div>
         <div class="item">
         	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/220.png" alt="Logo Design">
-          <div class="carousel-caption visible-desktop"><h3 class="container">Logo Design</h3></div>
+          <div class="carousel-caption visible-lg"><h3 class="container">Logo Design</h3></div>
           <div class="carousel-caption hidden-desktop"><h4 class="container">Logo Design</h4></div>
         </div>
         
@@ -106,8 +106,8 @@ else {
 
 	</header><!-- #masthead -->
   
-<div id="mission" class="container-fluid row-fluid"><h3 class="offset1 span10"><a href="<?php home_url(); ?>">Star Verte LLC</a> is a multimedia design firm that specializes in <a href="">professional branding</a>, <a href="">effective communications</a>, and <a href="">experiential design</a></h3></div>
+<div id="mission" class="container row"><h3 class="col-offset-1 col-lg-10"><a href="<?php home_url(); ?>">Star Verte LLC</a> is a multimedia design firm that specializes in <a href="">professional branding</a>, <a href="">effective communications</a>, and <a href="">experiential design</a></h3></div>
   
-<div id="page" class="hfeed site container-fluid">
+<div id="page" class="hfeed site container">
 
-	<div id="main" class="site-main row-fluid">
+	<div id="main" class="site-main row">
