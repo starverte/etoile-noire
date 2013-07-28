@@ -63,7 +63,7 @@ else {
                     
 					<div class="nav-collapse collapse">
 						<?php wp_nav_menu( array( 'menu_class' => 'nav', 'container' => false, 'theme_location' => 'primary', 'walker' => new Flint_Bootstrap_Menu ) ); ?>
-						<form method="get" class="navbar-search pull-right visible-desktop" action="<?php echo esc_url( home_url( '/' ) ); ?>" role="search">
+						<form method="get" class="navbar-search pull-right visible-lg" action="<?php echo esc_url( home_url( '/' ) ); ?>" role="search">
 							<input type="text" class="search-query" name="s" value="<?php echo esc_attr( get_search_query() ); ?>" placeholder="Search">
 						</form>
 					</div><!-- .nav-collapse -->
@@ -73,6 +73,6 @@ else {
 
 	</header><!-- #masthead -->
   
-<div id="page" class="hfeed site container-fluid">
+<div id="page" class="hfeed site container">
 
-	<div id="main" class="site-main row-fluid">
+	<div id="main" class="site-main row">
